@@ -1,12 +1,15 @@
-# Welcome to My GitHub Pages Site
-
-Hello! This is the home page for my personal website, hosted with [GitHub Pages](https://pages.github.com/).
+---
+layout: default
+title: Home
+---
 
 ## About
 
-This site is a work in progress and I have just started trying out the technology. 
+This site is an experiment to try out the [GitHub Pages](https://pages.github.com/) technology.
+I have some idea about having a personal blogging site and want to see how little effort it could be.
+Perhaps I will buy into Swyx's * learning in public * ideas ;-)
 
-Later I may add things like :
+Consider eadding things like :
 
 - Project showcases
 - Blog posts
@@ -14,18 +17,14 @@ Later I may add things like :
 
 ## Projects
 
-- [Project One](#)
-- [Project Two](#)
-- [Project Three](#)
+- [Project One](/project/project-one.md)
+- [Project Two](/project/project-two.md)
 
 ## Blog
 
-Am I delusional in thinking I will actually write any posts?
+- [Trying Out GitHub Pages for a Personal Technical Blog]({% post_url 2025-05-23-trying-github-pages-for-personal-technical-blog %})
+- [Learning .NET Aspire and Microsoft.Extensions.AI: First Impressions]({% post_url 2025-06-13-learning-dotnet-aspire-microsoft-extensions-ai %})
 
 ## Contact
 
 Feel free to reach out via [GitHub Issues](https://github.com/mgholls/mgholls.github.io/issues) or connect with me on [GitHub](https://github.com/mgholls).
-
----
-
-_Thanks for visiting!_

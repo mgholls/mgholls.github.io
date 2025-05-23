@@ -1,5 +1,8 @@
-title: My Technical Blog
-description: My personal blog about software development, tech insights, and programming tips
+# WARNING: 'future' is set to true to allow future-dated posts to be published.
+# Review this setting before deploying to production or sharing your site widely.
+future: true
+title: Martin Hollingsworth | Thinking about tech, still nothing very useful...
+description: Martin Hollingsworth's personal blog about software development, and the crazy things  that sometimes force their way into my head.
 author: Martin Hollingsworth
 email: martinh.reg@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,7 +20,7 @@ plugins:
   - jekyll-sitemap
 
 # Pagination
-paginate: 5
+paginate: 15
 paginate_path: "/blog/page:num/"
 
 # Permalink style
