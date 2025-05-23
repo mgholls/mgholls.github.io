@@ -1,6 +1,3 @@
-# WARNING: 'future' is set to true to allow future-dated posts to be published.
-# Review this setting before deploying to production or sharing your site widely.
-future: true
 title: Martin Hollingsworth | Thinking about tech, still nothing very useful...
 description: Martin Hollingsworth's personal blog about software development, and the crazy things  that sometimes force their way into my head.
 author: Martin Hollingsworth
@@ -10,6 +7,10 @@ url: "https://mgholls.github.io" # the base hostname & protocol for your site
 github_username: mgholls
 linkedin_username: martin-hollingsworth # your LinkedIn username (optional)
 twitter_username: mgholls # your Twitter username (optional)
+
+# WARNING: 'future' is set to true to allow future-dated posts to be published.
+# Review this setting before deploying to production or sharing your site widely.
+future: true
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trying Out GitHub Pages for a Personal Technical Blog"
+title: "Trying GitHub Pages for a personal technical blog"
 date: 2025-05-23
 categories: [github-pages, jekyll, minima, blogging]
 ---
@@ -48,6 +48,13 @@ Liquid Exception: Could not find post "2025-06-13-future-date-post" in tag 'post
 - I learned that `Gemfile.lock` should not be committed for GitHub Pages sites, as the build environment is managed by GitHub.
 - Platform-specific gems like `wdm` and `tzinfo-data` are not needed in a Linux-based dev container.
 
+### 4. Custom domain
+Since I own the tinan.net domain I wanted to try using www.tinan.net as a custom domain for this site instead of the default mgholls.github.io
+- I needed to add tinan.net as a verified domain at the user account / profile pages level first https://github.com/settings/pages. This required adding a TXT record to my tinan.net domain.
+- I then created a CNAME record from www to mgholls.github.io on my DNS provider (Amazon Route 53) before adding this to the repo settings pages https://github.com/mgholls/mgholls.github.io/settings/pages.
+- This seems to be working fine and I see a message saying that www.tinan.net is valid but also one saying there is a problem with the apex domain tinan.net.
+When I come back to the Settings -> Pages later I see a message *DNS Check in Progress*. Since it is working I have moved on.
+- I also checked the enforce HTTPS option. 
 
 ## Useful Links
 
