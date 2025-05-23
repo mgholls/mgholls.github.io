@@ -1,0 +1,34 @@
+title: My Technical Blog
+description: My personal blog about software development, tech insights, and programming tips
+author: Martin Hollingsworth
+email: martinh.reg@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mgholls.github.io" # the base hostname & protocol for your site
+github_username: mgholls
+linkedin_username: martin-hollingsworth # your LinkedIn username (optional)
+twitter_username: mgholls # your Twitter username (optional)
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Permalink style
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+  - LICENSE
