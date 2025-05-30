@@ -8,6 +8,12 @@ github_username: mgholls
 linkedin_username: martin-hollingsworth # your LinkedIn username (optional)
 twitter_username: mgholls # your Twitter username (optional)
 
+# The 'header_pages' configuration specifies which pages should appear in the site's header navigation.
+# Add the filenames of the pages you want to include in the header navigation here.
+header_pages:
+  - index.md
+  - blog/index.html
+
 # WARNING: 'future' is set to true to allow future-dated posts to be published.
 # Review this setting before deploying to production or sharing your site widely.
 future: true

@@ -1,28 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    {%- if site.minima -%}
-      {%- include head.html -%}
-    {%- endif -%}
-  </head>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
   <body>
-    <header class="site-header">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 class="site-title">{{ site.title }}</h1>
-        {%- include nav.html -%}
+        {{ content }}
       </div>
-    </header>
-    <main class="site-content">
-      {{ content }}
     </main>
-    <footer class="site-footer">
-      {%- if site.minima -%}
-        {%- include footer.html -%}
-      {%- endif -%}
-    </footer>
+
+    {%- include footer.html -%}
+
   </body>
+
 </html>
